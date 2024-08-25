@@ -1,0 +1,72 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sell-button {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.trade-modal {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center text */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
